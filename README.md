@@ -3,7 +3,7 @@ CCFQA is a speech and text factuality evaluation benchmark that measures languag
 - **Language**: Mandarin Chinese, English, French, Japanese, Korean, Russian, Spanish, Cantonese(HK)
 - **ISO-3 Code**: cmn, eng, fra, jpn, kor, rus, spa, yue 
 
-📄Paper：[https://arxiv.org/abs/2411.17666](https://arxiv.org/abs/2411.17666)
+📄Paper：[https://arxiv.org/abs/2508.07295](https://arxiv.org/abs/2508.07295)
 
 ## How to use
 
@@ -11,7 +11,6 @@ CCFQA is a speech and text factuality evaluation benchmark that measures languag
 
 ```python
 from datasets import load_dataset
-
 ccfqa = load_dataset("yxdu/ccfqa")
 print(ccfqa)
 ```
@@ -28,13 +27,13 @@ All datasets are licensed under the [Creative Commons Attribution-NonCommercial 
 # 🖊Citation
 
 ```
-@misc{muhlgay2024generatingbenchmarksfactualityevaluation,
-      title={Generating Benchmarks for Factuality Evaluation of Language Models}, 
-      author={Dor Muhlgay and Ori Ram and Inbal Magar and Yoav Levine and Nir Ratner and Yonatan Belinkov and Omri Abend and Kevin Leyton-Brown and Amnon Shashua and Yoav Shoham},
-      year={2024},
-      eprint={2307.06908},
+@misc{du2025ccfqabenchmarkcrosslingualcrossmodal,
+      title={CCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation}, 
+      author={Yexing Du and Kaiyuan Liu and Youcheng Pan and Zheng Chu and Bo Yang and Xiaocheng Feng and Yang Xiang and Ming Liu},
+      year={2025},
+      eprint={2508.07295},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2307.06908}, 
+      url={https://arxiv.org/abs/2508.07295}, 
 }
 ```
