@@ -15,7 +15,7 @@ print(ccfqa)
 
 ## Installation
 ```
-conda create -n ccfqa python=3.10
+conda create -n ccfqa python=3.10 -y
 conda activate ccfqa
 
 git clone https://github.com/yxduir/ccfqa
