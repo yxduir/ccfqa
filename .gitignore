@@ -1,5 +1,8 @@
 models/gemma-3-27b-it
 models/Qwen2-Audio-7B-Instruct
 models/Qwen2.5-Omni-7B
+data/*.jsonl
+data/test
+data/ccfqa_test
 *.wav
 *.tar.gz
