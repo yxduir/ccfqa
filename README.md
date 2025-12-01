@@ -6,9 +6,6 @@ CCFQA is a speech and text factuality evaluation benchmark that measures languag
 📄Paper：[https://arxiv.org/abs/2508.07295](https://arxiv.org/abs/2508.07295)
 
 ## How to use
-
-
-
 ```python
 from datasets import load_dataset
 ccfqa = load_dataset("yxdu/ccfqa")
@@ -36,15 +33,33 @@ pip install -r requirements.txt
 cd models/
 # Access to the Gemma models is required before using git lfs.
 git lfs clone https://huggingface.co/google/gemma-3-27b-it
+git lfs clone https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct
 cd ..
 ```
 
-## ⚖️ Evals
+## Download Demo Data
+```
+cd data
+git lfs clone https://huggingface.co/datasets/yxdu/ccfqa_test
+cd ..
+tar -zxvf data/ccfqa_test/data.tar.gz data
+```
+
+
+## Inference
 
 ```
-cd eval/
+cd eval
+bash run_qwen2audio.sh
+```
+
+## Eval
+
+```
+cd output
 python vllm_eval.py
 ```
+
 
 ## License
 

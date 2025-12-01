@@ -6,6 +6,7 @@ optimum
 soundfile
 evaluate
 transformers
+accelerate
 jiwer
 librosa
 openpyxl
