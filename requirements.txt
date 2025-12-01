@@ -1,0 +1,16 @@
+datasets
+sentencepiece
+py7zr
+scipy
+optimum
+soundfile
+evaluate
+transformers
+jiwer
+librosa
+openpyxl
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+debugpy
+vllm

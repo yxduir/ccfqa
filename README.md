@@ -15,10 +15,36 @@ ccfqa = load_dataset("yxdu/ccfqa")
 print(ccfqa)
 ```
 
+
+## Installation
+```
+conda create -n ccfqa python=3.10
+conda activate ccfqa
+
+git clone https://github.com/yxduir/ccfqa
+cd ccfqa
+
+sudo apt update
+sudo apt install ffmpeg
+sudo apt install git-lfs
+
+pip install -r requirements.txt
+```
+
+## Download Model 
+```
+cd models/
+# Access to the Gemma models is required before using git lfs.
+git lfs clone https://huggingface.co/google/gemma-3-27b-it
+cd ..
+```
+
 ## ⚖️ Evals
 
-please visit [github page](https://github.com/yxduir/ccfqa).
-
+```
+cd eval/
+python vllm_eval.py
+```
 
 ## License
 
