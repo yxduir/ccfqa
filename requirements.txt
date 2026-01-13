@@ -10,8 +10,9 @@ accelerate
 jiwer
 librosa
 openpyxl
-torch==2.8.0
-torchaudio==2.8.0
-torchvision==0.23.0
+torch
+torchaudio
+torchvision
 debugpy
-vllm
+vllm[audio]==0.13.0
+mistral_common[audio]==1.8.5
