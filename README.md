@@ -78,8 +78,8 @@ python vllm_eval.py
 # 🖊Citation
 ```
 @misc{du2025ccfqabenchmarkcrosslingualcrossmodal,
-      title={CCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation}, 
-      author={Yexing Du and Kaiyuan Liu and Youcheng Pan and Zheng Chu and Bo Yang and Xiaocheng Feng and Yang Xiang and Ming Liu},
+      title={{CCFQA}: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation}, 
+      author={Yexing Du and Kaiyuan Liu and Youcheng Pan and Zheng Chu and Bo Yang and Xiaocheng Feng and Ming Liu and Yang Xiang},
       year={2025},
       eprint={2508.07295},
       archivePrefix={arXiv},
